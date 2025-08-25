@@ -1,0 +1,1013 @@
+WEBVTT
+
+1
+00:00:00.960 --> 00:00:02.840
+Alright, so next up we want
+
+2
+00:00:02.840 --> 00:00:04.960
+to see about the self argument.
+
+3
+00:00:04.960 --> 00:00:06.440
+And so far we have seen that we
+
+4
+00:00:06.440 --> 00:00:08.160
+are just creating properties.
+
+5
+00:00:08.160 --> 00:00:09.120
+Now we want to see how
+
+6
+00:00:09.120 --> 00:00:10.720
+we can create methods.
+
+7
+00:00:10.720 --> 00:00:12.800
+And don't you worry, methods are
+
+8
+00:00:12.800 --> 00:00:14.880
+just a fancy name to functions.
+
+9
+00:00:14.880 --> 00:00:17.440
+If they are created inside the class,
+
+10
+00:00:17.440 --> 00:00:19.120
+they are called as methods.
+
+11
+00:00:19.120 --> 00:00:20.600
+Again, there is no right and wrong.
+
+12
+00:00:20.600 --> 00:00:21.960
+You can call them functions as well.
+
+13
+00:00:21.960 --> 00:00:22.800
+There is no big deal.
+
+14
+00:00:22.800 --> 00:00:25.080
+But most of the time we want
+
+15
+00:00:25.080 --> 00:00:26.480
+to be technically accurate.
+
+16
+00:00:26.480 --> 00:00:27.920
+There are a lot of names in the world
+
+17
+00:00:27.920 --> 00:00:29.480
+of programming jargon, so I just
+
+18
+00:00:29.480 --> 00:00:31.400
+wanted to make sure that it's there.
+
+19
+00:00:31.400 --> 00:00:32.320
+Let me share the screen
+
+20
+00:00:32.320 --> 00:00:34.600
+and actually we can just directly go
+
+21
+00:00:34.600 --> 00:00:35.960
+onto the code file without
+
+22
+00:00:35.960 --> 00:00:37.120
+much of the explanation.
+
+23
+00:00:37.120 --> 00:00:39.240
+That would be super simple for you.
+
+24
+00:00:39.240 --> 00:00:40.560
+Let's create a new file
+
+25
+00:00:40.560 --> 00:00:42.920
+and call this one as 04.
+
+26
+00:00:43.480 --> 00:00:46.160
+This is self args.
+
+27
+00:00:46.160 --> 00:00:47.480
+I'll show you what the self
+
+28
+00:00:47.480 --> 00:00:48.880
+args means or in short
+
+29
+00:00:48.880 --> 00:00:50.600
+for self arguments.
+
+30
+00:00:50.600 --> 00:00:52.600
+Let's open this up and the first
+
+31
+00:00:52.600 --> 00:00:54.720
+thing we'll do is make sure
+
+32
+00:00:54.720 --> 00:00:57.320
+that the AI is not bothering us.
+
+33
+00:00:57.320 --> 00:00:58.200
+So, so let's go ahead
+
+34
+00:00:58.200 --> 00:00:58.920
+and create a class.
+
+35
+00:00:58.920 --> 00:01:00.160
+So this is our class
+
+36
+00:01:00.160 --> 00:01:01.640
+and we're going to create a class
+
+37
+00:01:01.640 --> 00:01:03.520
+that call as chai cup.
+
+38
+00:01:03.520 --> 00:01:04.560
+Yeah, we are taking
+
+39
+00:01:04.560 --> 00:01:05.640
+a different route this time.
+
+40
+00:01:05.640 --> 00:01:07.360
+Not just chai chai cup.
+
+41
+00:01:07.360 --> 00:01:10.320
+I know that the size of a chai cup
+
+42
+00:01:10.320 --> 00:01:12.720
+is going to be, let's just say 150.
+
+43
+00:01:13.920 --> 00:01:15.400
+Wondering what this 150 is?
+
+44
+00:01:15.400 --> 00:01:16.240
+We are internally
+
+45
+00:01:16.240 --> 00:01:18.040
+referencing as milliliters.
+
+46
+00:01:18.040 --> 00:01:20.200
+Feel free to use any other size, like
+
+47
+00:01:20.200 --> 00:01:22.480
+medium small, whatever you wish.
+
+48
+00:01:22.480 --> 00:01:24.480
+Now I do have a method inside this.
+
+49
+00:01:24.480 --> 00:01:25.640
+Now notice the indentation.
+
+50
+00:01:25.640 --> 00:01:27.590
+This is the most important part.
+
+51
+00:01:27.590 --> 00:01:30.070
+But we are defining a method, but we
+
+52
+00:01:30.070 --> 00:01:31.550
+can call it as function as well.
+
+53
+00:01:31.550 --> 00:01:33.190
+Nobody's going to judge you
+
+54
+00:01:33.190 --> 00:01:34.790
+except interviewer.
+
+55
+00:01:34.790 --> 00:01:37.030
+I will call this one as describe.
+
+56
+00:01:37.590 --> 00:01:39.350
+So what this describe function does,
+
+57
+00:01:39.910 --> 00:01:42.170
+it actually goes ahead and reference
+
+58
+00:01:42.830 --> 00:01:44.710
+the size and print it nicely
+
+59
+00:01:44.710 --> 00:01:47.310
+that this is 150 milliliters
+
+60
+00:01:47.310 --> 00:01:49.670
+of cupchay, something like that.
+
+61
+00:01:49.670 --> 00:01:51.070
+So for this, the first thing
+
+62
+00:01:51.070 --> 00:01:52.550
+that you always do in all
+
+63
+00:01:52.550 --> 00:01:55.130
+the methods is you write self.
+
+64
+00:01:55.130 --> 00:01:56.330
+This is the step one.
+
+65
+00:01:56.330 --> 00:01:57.450
+What is this self that
+
+66
+00:01:57.450 --> 00:01:58.730
+we are passing in here?
+
+67
+00:01:58.730 --> 00:02:00.610
+Self is a reference to all
+
+68
+00:02:00.610 --> 00:02:02.770
+the parameter, all the properties
+
+69
+00:02:02.770 --> 00:02:03.810
+that you are defining here.
+
+70
+00:02:03.810 --> 00:02:04.770
+It could be one, it
+
+71
+00:02:04.770 --> 00:02:06.490
+could be many as well.
+
+72
+00:02:06.490 --> 00:02:08.289
+Just after passing this self, you can
+
+73
+00:02:08.289 --> 00:02:09.889
+actually refer to any variable that
+
+74
+00:02:09.889 --> 00:02:11.370
+you have declared within the class.
+
+75
+00:02:12.010 --> 00:02:13.170
+After you come up here you
+
+76
+00:02:13.170 --> 00:02:14.450
+can simply go ahead and say I
+
+77
+00:02:14.450 --> 00:02:15.730
+want to return a simple
+
+78
+00:02:15.730 --> 00:02:17.690
+formatted string that says a.
+
+79
+00:02:18.490 --> 00:02:20.090
+And now I can refer to this.
+
+80
+00:02:20.090 --> 00:02:21.090
+But how do I refer?
+
+81
+00:02:21.090 --> 00:02:21.930
+Just say size.
+
+82
+00:02:23.240 --> 00:02:23.860
+Nope.
+
+83
+00:02:23.860 --> 00:02:25.400
+You actually don't do this, you have
+
+84
+00:02:25.400 --> 00:02:28.040
+to refer it like this, self
+
+85
+00:02:28.040 --> 00:02:29.960
+dot and then you see the size.
+
+86
+00:02:30.920 --> 00:02:32.400
+Whenever you are doing anything
+
+87
+00:02:32.400 --> 00:02:33.440
+inside the class and you
+
+88
+00:02:33.440 --> 00:02:35.000
+want to refer to any function
+
+89
+00:02:35.000 --> 00:02:37.640
+or any property variable,
+
+90
+00:02:37.640 --> 00:02:39.400
+you use self, then a dot
+
+91
+00:02:39.400 --> 00:02:41.240
+and then only you refer that.
+
+92
+00:02:41.240 --> 00:02:45.560
+And this says ML cup Chai.
+
+93
+00:02:46.440 --> 00:02:48.000
+All right, ML Chai
+
+94
+00:02:48.000 --> 00:02:48.760
+cup would be better.
+
+95
+00:02:50.430 --> 00:02:51.070
+Chai Cup.
+
+96
+00:02:51.070 --> 00:02:51.750
+There we go.
+
+97
+00:02:51.750 --> 00:02:53.190
+That is it, that is all it takes.
+
+98
+00:02:53.190 --> 00:02:54.190
+How do we use it?
+
+99
+00:02:54.700 --> 00:02:56.030
+Surely we can create a simple
+
+100
+00:02:56.030 --> 00:02:57.510
+cup that comes from chai cup.
+
+101
+00:02:57.510 --> 00:02:58.870
+Just like that, we have created
+
+102
+00:02:58.870 --> 00:03:00.910
+an object from the class.
+
+103
+00:03:00.910 --> 00:03:02.430
+Now all I have to do is just
+
+104
+00:03:02.430 --> 00:03:03.830
+print the value just like this
+
+105
+00:03:03.830 --> 00:03:07.150
+and I can say cup dot describe.
+
+106
+00:03:07.150 --> 00:03:08.390
+It's a method, so you
+
+107
+00:03:08.390 --> 00:03:10.270
+execute it just like that.
+
+108
+00:03:10.270 --> 00:03:11.470
+Super simple.
+
+109
+00:03:11.470 --> 00:03:12.910
+I can just go ahead and do
+
+110
+00:03:12.910 --> 00:03:14.720
+more fun stuff on this.
+
+111
+00:03:14.720 --> 00:03:16.390
+I'll show you that actually I can
+
+112
+00:03:16.390 --> 00:03:18.600
+refer to this directly as well.
+
+113
+00:03:18.600 --> 00:03:20.190
+So that's also possible.
+
+114
+00:03:20.190 --> 00:03:21.470
+Instead of creating an object,
+
+115
+00:03:22.190 --> 00:03:24.430
+I can directly refer to my class.
+
+116
+00:03:24.430 --> 00:03:25.830
+And you will do this quite a lot
+
+117
+00:03:25.830 --> 00:03:26.990
+in your Python code.
+
+118
+00:03:26.990 --> 00:03:28.550
+And then further I can just
+
+119
+00:03:28.550 --> 00:03:30.430
+go ahead and say describe.
+
+120
+00:03:31.300 --> 00:03:31.990
+But this is going
+
+121
+00:03:31.990 --> 00:03:32.910
+to give you an error.
+
+122
+00:03:32.910 --> 00:03:34.310
+We need to see the error as well.
+
+123
+00:03:34.310 --> 00:03:35.750
+So first we'll just comment this
+
+124
+00:03:35.750 --> 00:03:37.190
+down and we'll see what the error
+
+125
+00:03:37.190 --> 00:03:38.830
+actually comes up and how it works.
+
+126
+00:03:39.470 --> 00:03:42.030
+So let's first run this as it is.
+
+127
+00:03:42.030 --> 00:03:43.150
+So there we go, we'll just
+
+128
+00:03:43.150 --> 00:03:44.350
+go ahead and say Python
+
+129
+00:03:44.870 --> 00:03:46.630
+and please run the 04.
+
+130
+00:03:46.630 --> 00:03:48.950
+This is as it is, as expected,
+
+131
+00:03:48.950 --> 00:03:51.590
+a 150ml cup of chai.
+
+132
+00:03:51.590 --> 00:03:53.070
+But what happens when I go
+
+133
+00:03:53.070 --> 00:03:54.390
+ahead and try to describe?
+
+134
+00:03:54.390 --> 00:03:57.230
+I know that this is a cup Chai Cup.
+
+135
+00:03:57.230 --> 00:03:58.350
+It is my class name.
+
+136
+00:03:58.350 --> 00:03:59.750
+I'm well aware of it.
+
+137
+00:03:59.750 --> 00:04:01.630
+I do have a describe method as well.
+
+138
+00:04:01.630 --> 00:04:02.870
+It should work technically.
+
+139
+00:04:02.870 --> 00:04:03.830
+All good.
+
+140
+00:04:03.830 --> 00:04:05.510
+But you forgot one thing.
+
+141
+00:04:05.510 --> 00:04:07.990
+We are passing a parameter self here
+
+142
+00:04:07.990 --> 00:04:09.670
+that is really important.
+
+143
+00:04:09.670 --> 00:04:11.270
+So what good goes wrong when I
+
+144
+00:04:11.270 --> 00:04:12.710
+don't go ahead and pass on this?
+
+145
+00:04:12.710 --> 00:04:14.950
+It says, hey, the Chai cup describe
+
+146
+00:04:14.950 --> 00:04:17.310
+is missing one positional argument,
+
+147
+00:04:17.310 --> 00:04:19.870
+as we said, this self here.
+
+148
+00:04:19.870 --> 00:04:21.029
+So how can we pass on.
+
+149
+00:04:21.029 --> 00:04:22.950
+Now this is a positional argument,
+
+150
+00:04:22.950 --> 00:04:24.630
+but also it's a type of self.
+
+151
+00:04:24.630 --> 00:04:26.709
+That means it is referencing
+
+152
+00:04:26.709 --> 00:04:29.310
+to the class as of now right now,
+
+153
+00:04:29.310 --> 00:04:31.390
+but can also refer to the object.
+
+154
+00:04:31.390 --> 00:04:32.750
+Notice here we created one
+
+155
+00:04:32.750 --> 00:04:35.030
+object cup here, so I will give
+
+156
+00:04:35.030 --> 00:04:36.550
+you the context right now.
+
+157
+00:04:36.550 --> 00:04:37.830
+It doesn't understand that, hey,
+
+158
+00:04:37.830 --> 00:04:39.360
+who is calling the describe?
+
+159
+00:04:39.360 --> 00:04:41.470
+And if an object calls the describe?
+
+160
+00:04:41.470 --> 00:04:43.310
+Okay, I got the context that this guy
+
+161
+00:04:43.310 --> 00:04:44.550
+is calling it, but there could be
+
+162
+00:04:44.550 --> 00:04:46.390
+hundreds of other objects as well.
+
+163
+00:04:46.390 --> 00:04:48.950
+For example, if I go Ahead and say
+
+164
+00:04:48.950 --> 00:04:51.990
+this is going to be cupto
+
+165
+00:04:51.990 --> 00:04:54.390
+and this is also a chicup.
+
+166
+00:04:54.390 --> 00:04:55.910
+And if same thing happens,
+
+167
+00:04:55.910 --> 00:04:58.310
+somebody is trying to print, that
+
+168
+00:04:59.750 --> 00:05:03.110
+cup two is also calling the describe
+
+169
+00:05:03.670 --> 00:05:04.630
+just like this.
+
+170
+00:05:04.630 --> 00:05:05.910
+There should be some difference
+
+171
+00:05:05.910 --> 00:05:06.910
+between the line number
+
+172
+00:05:06.910 --> 00:05:08.470
+nine and line number 13.
+
+173
+00:05:09.330 --> 00:05:10.210
+So this is also calling
+
+174
+00:05:10.210 --> 00:05:11.250
+the describe method.
+
+175
+00:05:11.250 --> 00:05:12.050
+This is also calling
+
+176
+00:05:12.050 --> 00:05:13.250
+the describe method.
+
+177
+00:05:13.250 --> 00:05:15.010
+Which should I listen, maybe this has
+
+178
+00:05:15.010 --> 00:05:17.730
+modified my size to 120 milliliters.
+
+179
+00:05:17.730 --> 00:05:19.170
+That could be the case.
+
+180
+00:05:19.170 --> 00:05:21.010
+So we need to pass on the context,
+
+181
+00:05:21.010 --> 00:05:22.690
+we need to pass on the reference.
+
+182
+00:05:22.690 --> 00:05:24.570
+And when this object calls this
+
+183
+00:05:24.570 --> 00:05:26.410
+method describe, it automatically
+
+184
+00:05:26.410 --> 00:05:28.370
+passes its references.
+
+185
+00:05:28.370 --> 00:05:29.850
+When this Cup 2 passes
+
+186
+00:05:29.850 --> 00:05:30.970
+to the describe, it
+
+187
+00:05:30.970 --> 00:05:32.930
+passes its reference.
+
+188
+00:05:32.930 --> 00:05:35.780
+But when we call it directly
+
+189
+00:05:35.780 --> 00:05:37.900
+from this, it has no idea what
+
+190
+00:05:37.900 --> 00:05:39.420
+reference should I take up and how
+
+191
+00:05:39.420 --> 00:05:41.500
+to fill up these variables.
+
+192
+00:05:41.500 --> 00:05:43.140
+So one quick solution that could
+
+193
+00:05:43.140 --> 00:05:44.580
+be that, hey, I'll just go ahead
+
+194
+00:05:44.580 --> 00:05:46.900
+and pass on cup to you and I will
+
+195
+00:05:46.900 --> 00:05:48.820
+comment this for a moment now
+
+196
+00:05:48.820 --> 00:05:50.020
+that you understand the context
+
+197
+00:05:50.020 --> 00:05:50.620
+of it.
+
+198
+00:05:50.620 --> 00:05:51.820
+There we go.
+
+199
+00:05:51.820 --> 00:05:53.900
+Now if I go ahead and run this, this
+
+200
+00:05:53.900 --> 00:05:56.780
+says okay, I am 150ml of cup chai.
+
+201
+00:05:56.780 --> 00:05:58.500
+That's great, but maybe you have
+
+202
+00:05:58.500 --> 00:06:00.300
+modified this in the Cup 2.
+
+203
+00:06:00.300 --> 00:06:02.530
+So for example, in the Cup 22 you
+
+204
+00:06:02.530 --> 00:06:04.610
+came forward and says the size value
+
+205
+00:06:04.610 --> 00:06:06.010
+is going to be just 100 milliliters.
+
+206
+00:06:06.010 --> 00:06:06.930
+Maybe we are showing
+
+207
+00:06:06.930 --> 00:06:08.130
+some frugality here.
+
+208
+00:06:08.130 --> 00:06:09.810
+So I'll just go ahead and say 100.
+
+209
+00:06:10.370 --> 00:06:12.090
+Now if I go ahead and run this
+
+210
+00:06:12.090 --> 00:06:13.730
+describe, it again needs some
+
+211
+00:06:13.730 --> 00:06:15.490
+context to be passed on.
+
+212
+00:06:15.490 --> 00:06:16.650
+I'll say that, hey, I'll
+
+213
+00:06:16.650 --> 00:06:17.809
+pass you the cup too.
+
+214
+00:06:17.809 --> 00:06:18.690
+So there are two different
+
+215
+00:06:18.690 --> 00:06:20.290
+references of this one.
+
+216
+00:06:20.290 --> 00:06:21.770
+I'll go ahead and run this.
+
+217
+00:06:21.770 --> 00:06:22.930
+And there we go.
+
+218
+00:06:22.930 --> 00:06:25.890
+And my bad, we actually shouldn't
+
+219
+00:06:25.890 --> 00:06:27.780
+be passing up like this.
+
+220
+00:06:27.780 --> 00:06:31.700
+So cup2 dot describe and where is
+
+221
+00:06:31.700 --> 00:06:34.260
+it founding the mistake Describe.
+
+222
+00:06:34.260 --> 00:06:35.100
+Let me just quickly.
+
+223
+00:06:35.100 --> 00:06:36.020
+Oh, my bad.
+
+224
+00:06:36.020 --> 00:06:37.820
+It shouldn't be calling as an object,
+
+225
+00:06:37.820 --> 00:06:39.780
+it should be calling up as a class.
+
+226
+00:06:40.820 --> 00:06:41.540
+My bad.
+
+227
+00:06:41.540 --> 00:06:43.780
+I'll take that responsibility fully.
+
+228
+00:06:43.780 --> 00:06:45.300
+And now if you run that,
+
+229
+00:06:45.300 --> 00:06:49.180
+we can see that one is 150ml
+
+230
+00:06:49.180 --> 00:06:50.580
+and another one is 100ml.
+
+231
+00:06:50.580 --> 00:06:53.630
+This is bottom one is 100ml.
+
+232
+00:06:53.630 --> 00:06:55.310
+This one is 150ml.
+
+233
+00:06:55.310 --> 00:06:57.790
+So both are totally accurate
+
+234
+00:06:57.790 --> 00:06:59.190
+way of calling the methods
+
+235
+00:06:59.190 --> 00:07:00.270
+inside the class.
+
+236
+00:07:00.270 --> 00:07:02.030
+In one you are calling via
+
+237
+00:07:02.030 --> 00:07:04.750
+the object so it has the context.
+
+238
+00:07:04.750 --> 00:07:06.150
+But on the other hand you are calling
+
+239
+00:07:06.150 --> 00:07:08.350
+it directly from the class itself.
+
+240
+00:07:08.350 --> 00:07:09.990
+The class doesn't have the context
+
+241
+00:07:09.990 --> 00:07:11.790
+so you have to pass on the context.
+
+242
+00:07:11.790 --> 00:07:13.390
+And almost every method that you
+
+243
+00:07:13.390 --> 00:07:14.670
+are going to pass like this.
+
+244
+00:07:14.670 --> 00:07:16.670
+Almost all the class they are almost
+
+245
+00:07:16.670 --> 00:07:19.310
+like 99% of the time they do held
+
+246
+00:07:19.310 --> 00:07:21.480
+the self have the self reference.
+
+247
+00:07:21.480 --> 00:07:22.800
+So the easiest way is always
+
+248
+00:07:22.800 --> 00:07:23.720
+to create an object
+
+249
+00:07:23.720 --> 00:07:25.400
+and then call the methods.
+
+250
+00:07:25.400 --> 00:07:26.720
+But there are exceptions.
+
+251
+00:07:26.720 --> 00:07:28.120
+They're always there.
+
+252
+00:07:28.120 --> 00:07:29.200
+That is it for this video.
+
+253
+00:07:29.200 --> 00:07:30.760
+Let's catch up in the next one.

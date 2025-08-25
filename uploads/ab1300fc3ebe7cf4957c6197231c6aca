@@ -1,0 +1,1181 @@
+WEBVTT
+
+1
+00:00:01.120 --> 00:00:02.880
+All right, let's get started more
+
+2
+00:00:02.880 --> 00:00:04.640
+and talk a little bit more about
+
+3
+00:00:04.640 --> 00:00:06.560
+the classes and the namespaces.
+
+4
+00:00:06.560 --> 00:00:08.480
+You usually see me beg one
+
+5
+00:00:08.480 --> 00:00:09.840
+a big image of me.
+
+6
+00:00:09.840 --> 00:00:11.680
+But now I'm just keeping myself
+
+7
+00:00:11.680 --> 00:00:12.880
+in the short so that we can
+
+8
+00:00:12.880 --> 00:00:14.720
+focus on the screen itself.
+
+9
+00:00:14.720 --> 00:00:16.239
+So let me take you on to this one.
+
+10
+00:00:16.239 --> 00:00:17.240
+So what we're going to study,
+
+11
+00:00:17.240 --> 00:00:19.280
+we are still going to study the same
+
+12
+00:00:19.280 --> 00:00:21.040
+diagram which we drawn.
+
+13
+00:00:21.040 --> 00:00:22.800
+So notice here, this is a class
+
+14
+00:00:22.800 --> 00:00:24.280
+and I wrapped it
+
+15
+00:00:24.280 --> 00:00:25.920
+up inside a box for a reason.
+
+16
+00:00:26.480 --> 00:00:28.080
+This is also an object.
+
+17
+00:00:28.080 --> 00:00:29.280
+This is also an object.
+
+18
+00:00:29.280 --> 00:00:30.640
+And this is also an object.
+
+19
+00:00:31.210 --> 00:00:33.490
+Now each object possess some
+
+20
+00:00:33.490 --> 00:00:34.570
+of their properties.
+
+21
+00:00:34.570 --> 00:00:36.490
+Properties like their variable names.
+
+22
+00:00:36.490 --> 00:00:38.170
+Like I have a property like
+
+23
+00:00:38.170 --> 00:00:39.490
+what's the color of my tea shirt
+
+24
+00:00:39.490 --> 00:00:40.810
+in this case you can see it,
+
+25
+00:00:40.810 --> 00:00:42.740
+it's yellow, bright yellow.
+
+26
+00:00:42.740 --> 00:00:43.810
+What's other property?
+
+27
+00:00:43.810 --> 00:00:44.570
+It fits me.
+
+28
+00:00:44.570 --> 00:00:46.570
+So there might be some size, like
+
+29
+00:00:46.570 --> 00:00:47.930
+large, extra large,
+
+30
+00:00:47.930 --> 00:00:49.610
+some size does fit me.
+
+31
+00:00:49.610 --> 00:00:50.970
+These are all properties
+
+32
+00:00:50.970 --> 00:00:51.810
+of this tea shirt.
+
+33
+00:00:51.810 --> 00:00:53.010
+So exactly like this, there are
+
+34
+00:00:53.010 --> 00:00:54.250
+some properties of this object.
+
+35
+00:00:54.250 --> 00:00:55.930
+Like this is a smaller object,
+
+36
+00:00:56.580 --> 00:00:57.540
+this one is having more
+
+37
+00:00:57.540 --> 00:00:58.660
+width than the length.
+
+38
+00:00:58.660 --> 00:01:00.660
+This one is having a different color.
+
+39
+00:01:00.660 --> 00:01:02.220
+And what you have also noticed
+
+40
+00:01:02.220 --> 00:01:04.019
+that each of this object although
+
+41
+00:01:04.019 --> 00:01:05.940
+came from this class itself,
+
+42
+00:01:05.940 --> 00:01:07.380
+possess some different properties,
+
+43
+00:01:07.380 --> 00:01:08.660
+but are not actually
+
+44
+00:01:08.660 --> 00:01:11.140
+overlapping anybody else's property.
+
+45
+00:01:11.140 --> 00:01:13.220
+Each object has its own entity
+
+46
+00:01:13.220 --> 00:01:14.820
+that's called as namespace.
+
+47
+00:01:14.820 --> 00:01:16.180
+I repeat this again.
+
+48
+00:01:16.180 --> 00:01:18.780
+Each object is its own entity.
+
+49
+00:01:18.780 --> 00:01:20.420
+It can possess its own features,
+
+50
+00:01:20.420 --> 00:01:21.700
+its own properties,
+
+51
+00:01:21.700 --> 00:01:23.700
+but doesn't bother other ones.
+
+52
+00:01:23.700 --> 00:01:25.500
+This is exactly the namespaces
+
+53
+00:01:25.500 --> 00:01:27.360
+and the concept of namespaces
+
+54
+00:01:27.360 --> 00:01:28.390
+in in the world of object
+
+55
+00:01:28.390 --> 00:01:30.230
+oriented programming demo time.
+
+56
+00:01:30.230 --> 00:01:31.270
+Of course it is.
+
+57
+00:01:31.270 --> 00:01:32.350
+Let's write some code.
+
+58
+00:01:32.350 --> 00:01:33.510
+I love this code part.
+
+59
+00:01:34.310 --> 00:01:36.350
+Let's create a new file and we
+
+60
+00:01:36.350 --> 00:01:37.830
+will create so many files
+
+61
+00:01:37.830 --> 00:01:39.590
+in this section because we have
+
+62
+00:01:39.590 --> 00:01:40.950
+so many topics to cover.
+
+63
+00:01:40.950 --> 00:01:42.950
+Let's call this one as namespace.
+
+64
+00:01:42.950 --> 00:01:44.070
+This namespace topic
+
+65
+00:01:44.070 --> 00:01:45.790
+in itself is a pretty in depth.
+
+66
+00:01:45.790 --> 00:01:46.550
+It actually exists
+
+67
+00:01:46.550 --> 00:01:48.070
+in Linux ecosystem as well.
+
+68
+00:01:48.070 --> 00:01:49.230
+But anyways I'll not go
+
+69
+00:01:49.230 --> 00:01:50.710
+too much depth of that.
+
+70
+00:01:50.710 --> 00:01:52.550
+So let's go with the namespace,
+
+71
+00:01:52.550 --> 00:01:54.510
+let's create another class and we'll
+
+72
+00:01:54.510 --> 00:01:56.150
+call this one as simplechai.
+
+73
+00:01:56.150 --> 00:01:56.870
+There we go.
+
+74
+00:01:56.870 --> 00:01:58.670
+And this time we'll not just write
+
+75
+00:01:58.670 --> 00:02:00.170
+pass, we'll declare some variable.
+
+76
+00:02:00.170 --> 00:02:01.290
+By the way, in the class you
+
+77
+00:02:01.290 --> 00:02:02.450
+can have your variables, you
+
+78
+00:02:02.450 --> 00:02:03.410
+can have your functions,
+
+79
+00:02:03.410 --> 00:02:05.010
+generators, whatever you want.
+
+80
+00:02:05.010 --> 00:02:06.730
+It's just a wrapper and inside
+
+81
+00:02:06.730 --> 00:02:07.930
+the wrapper you can have as
+
+82
+00:02:07.930 --> 00:02:09.729
+much or anything that you want.
+
+83
+00:02:09.729 --> 00:02:11.330
+I want to have an origin.
+
+84
+00:02:11.330 --> 00:02:13.650
+So most of the chai the origin is
+
+85
+00:02:13.650 --> 00:02:15.250
+in my country India.
+
+86
+00:02:15.970 --> 00:02:17.290
+Now let's see how we can create
+
+87
+00:02:17.290 --> 00:02:18.920
+different objects from it.
+
+88
+00:02:18.920 --> 00:02:19.850
+First of all, I would love
+
+89
+00:02:19.850 --> 00:02:21.090
+to print one statement.
+
+90
+00:02:21.090 --> 00:02:22.170
+So I can just go ahead
+
+91
+00:02:22.170 --> 00:02:23.970
+and say, this chai.
+
+92
+00:02:23.970 --> 00:02:25.450
+And just by putting a dot, you can
+
+93
+00:02:25.450 --> 00:02:26.970
+access whatever you have named
+
+94
+00:02:26.970 --> 00:02:28.610
+inside it, whatever the values are.
+
+95
+00:02:28.610 --> 00:02:30.170
+So right now I just want to print
+
+96
+00:02:30.170 --> 00:02:32.510
+what's the value inside the origin.
+
+97
+00:02:32.510 --> 00:02:33.710
+And again, there's
+
+98
+00:02:33.710 --> 00:02:34.670
+no guesswork there.
+
+99
+00:02:34.670 --> 00:02:36.110
+It's super easy to guess what's
+
+100
+00:02:36.110 --> 00:02:37.390
+going to be printed out.
+
+101
+00:02:37.390 --> 00:02:39.350
+So I'll just go ahead and say, there
+
+102
+00:02:39.350 --> 00:02:41.870
+we go, no exception, no surprises.
+
+103
+00:02:41.870 --> 00:02:43.230
+We get this one.
+
+104
+00:02:43.230 --> 00:02:44.590
+Now let's go ahead and create
+
+105
+00:02:44.590 --> 00:02:45.950
+a two different object.
+
+106
+00:02:46.910 --> 00:02:48.790
+And by the way, it's not like
+
+107
+00:02:48.790 --> 00:02:50.030
+you have to declare all
+
+108
+00:02:50.030 --> 00:02:52.550
+the objects or all the variables.
+
+109
+00:02:52.550 --> 00:02:53.950
+And by the way, when the variables
+
+110
+00:02:53.950 --> 00:02:55.150
+goes inside the class,
+
+111
+00:02:55.150 --> 00:02:56.390
+we call them as objects.
+
+112
+00:02:56.390 --> 00:02:57.750
+So from here onwards we'll
+
+113
+00:02:57.750 --> 00:02:59.310
+refer to them as objects,
+
+114
+00:03:00.210 --> 00:03:01.730
+not objects, properties.
+
+115
+00:03:01.730 --> 00:03:03.490
+My bad, sorry for that.
+
+116
+00:03:03.490 --> 00:03:04.810
+So inside the class, whenever
+
+117
+00:03:04.810 --> 00:03:05.930
+the variable goes, we
+
+118
+00:03:05.930 --> 00:03:07.090
+call them as properties.
+
+119
+00:03:07.090 --> 00:03:08.330
+So from here onwards we'll
+
+120
+00:03:08.330 --> 00:03:09.890
+call them as properties.
+
+121
+00:03:09.890 --> 00:03:11.330
+You can go ahead and add more
+
+122
+00:03:11.330 --> 00:03:13.290
+property to this just by putting up
+
+123
+00:03:13.290 --> 00:03:16.010
+a dot and says let's just say is hot
+
+124
+00:03:16.010 --> 00:03:17.730
+is the new property I want to add.
+
+125
+00:03:17.730 --> 00:03:19.650
+And I can just put up a value.
+
+126
+00:03:19.650 --> 00:03:20.890
+This can be a boolean, this
+
+127
+00:03:20.890 --> 00:03:21.890
+can be anything else.
+
+128
+00:03:21.890 --> 00:03:24.450
+And now I can access it directly by
+
+129
+00:03:25.180 --> 00:03:26.220
+pointing towards the class.
+
+130
+00:03:26.220 --> 00:03:27.300
+And as soon as I put
+
+131
+00:03:27.300 --> 00:03:29.060
+up a dot, I have more access
+
+132
+00:03:29.060 --> 00:03:32.060
+to this one, which is ishot.
+
+133
+00:03:32.060 --> 00:03:33.740
+Now you might be wondering, can
+
+134
+00:03:33.740 --> 00:03:35.980
+I go ahead and print this value?
+
+135
+00:03:35.980 --> 00:03:37.900
+Let's go ahead and ask this.
+
+136
+00:03:37.900 --> 00:03:39.580
+Although there was no suggestion,
+
+137
+00:03:39.580 --> 00:03:41.540
+but if I go ahead and run this, you
+
+138
+00:03:41.540 --> 00:03:43.740
+can see we got the true value here.
+
+139
+00:03:43.740 --> 00:03:44.700
+So now this class
+
+140
+00:03:44.700 --> 00:03:46.260
+technically has two values.
+
+141
+00:03:46.260 --> 00:03:48.060
+One is origin, one is
+
+142
+00:03:48.060 --> 00:03:49.980
+is hot, which is true.
+
+143
+00:03:49.980 --> 00:03:51.780
+Now let's see that if I can go ahead
+
+144
+00:03:51.780 --> 00:03:53.660
+and create more objects out of it.
+
+145
+00:03:55.350 --> 00:03:59.990
+Creating objects from class chai
+
+146
+00:03:59.990 --> 00:04:01.270
+the way how we create that.
+
+147
+00:04:01.270 --> 00:04:02.150
+Let's just say we want
+
+148
+00:04:02.150 --> 00:04:03.670
+to have a simple masala.
+
+149
+00:04:03.670 --> 00:04:05.590
+This one can come from the chai,
+
+150
+00:04:05.590 --> 00:04:07.190
+so all the values goes inside it.
+
+151
+00:04:07.190 --> 00:04:08.430
+It can have by default
+
+152
+00:04:08.430 --> 00:04:09.909
+as an axis of origin.
+
+153
+00:04:09.909 --> 00:04:11.670
+Can have an axis of is hot.
+
+154
+00:04:12.250 --> 00:04:13.750
+Would you like me to go with that?
+
+155
+00:04:13.750 --> 00:04:14.270
+Of course.
+
+156
+00:04:14.270 --> 00:04:15.990
+You want me to go with this.
+
+157
+00:04:15.990 --> 00:04:18.430
+So I can just say masala and as
+
+158
+00:04:18.430 --> 00:04:20.510
+soon as I put up a dot, this one
+
+159
+00:04:20.510 --> 00:04:24.310
+is going to say origin origin.
+
+160
+00:04:24.310 --> 00:04:25.710
+And I can have a duplicate
+
+161
+00:04:25.710 --> 00:04:28.550
+of this and say is hot.
+
+162
+00:04:28.550 --> 00:04:29.510
+Although we don't get
+
+163
+00:04:30.180 --> 00:04:31.430
+the suggestions, but this
+
+164
+00:04:31.430 --> 00:04:32.870
+is all what we have.
+
+165
+00:04:32.870 --> 00:04:34.230
+Let's go ahead and run this.
+
+166
+00:04:34.230 --> 00:04:35.110
+Do we have this?
+
+167
+00:04:35.110 --> 00:04:35.910
+Yes.
+
+168
+00:04:35.910 --> 00:04:37.670
+So the first two are Actually
+
+169
+00:04:37.670 --> 00:04:39.790
+being printed by the class itself.
+
+170
+00:04:39.790 --> 00:04:41.150
+The rest of the two are actually
+
+171
+00:04:41.150 --> 00:04:43.270
+coming up from the masala itself.
+
+172
+00:04:43.270 --> 00:04:44.590
+And just to make sure that we
+
+173
+00:04:44.590 --> 00:04:46.030
+get this idea, so I'll just go
+
+174
+00:04:46.030 --> 00:04:48.720
+ahead and simply go like this
+
+175
+00:04:50.080 --> 00:04:53.840
+and have a value just like this.
+
+176
+00:04:53.840 --> 00:04:57.040
+And we will say masala space.
+
+177
+00:04:57.040 --> 00:05:00.720
+And we can actually copy this copy
+
+178
+00:05:01.680 --> 00:05:04.320
+and we'll paste this one masala.
+
+179
+00:05:04.320 --> 00:05:07.600
+And there we go.
+
+180
+00:05:09.920 --> 00:05:10.720
+Just a second.
+
+181
+00:05:10.720 --> 00:05:12.080
+I'll just arrange the things
+
+182
+00:05:12.080 --> 00:05:13.200
+so that we get the idea.
+
+183
+00:05:14.130 --> 00:05:14.890
+This one is easier
+
+184
+00:05:14.890 --> 00:05:16.730
+to understand that okay, this is
+
+185
+00:05:16.730 --> 00:05:19.650
+masala India and masala true.
+
+186
+00:05:19.650 --> 00:05:21.730
+All right, can I go ahead and create
+
+187
+00:05:21.730 --> 00:05:23.250
+more chai just like this?
+
+188
+00:05:23.250 --> 00:05:25.530
+And what happens if I go
+
+189
+00:05:25.530 --> 00:05:27.090
+ahead and change some value?
+
+190
+00:05:27.090 --> 00:05:28.130
+So for example, that's
+
+191
+00:05:28.130 --> 00:05:29.010
+interesting case.
+
+192
+00:05:29.010 --> 00:05:31.050
+If I go ahead and take this masala
+
+193
+00:05:31.050 --> 00:05:35.410
+and I say ishot and I turn it as
+
+194
+00:05:35.410 --> 00:05:36.570
+this was previously
+
+195
+00:05:36.570 --> 00:05:38.290
+true, but I turn it as false.
+
+196
+00:05:38.850 --> 00:05:40.490
+So what do you think will happen?
+
+197
+00:05:40.490 --> 00:05:41.970
+I want to print the two things.
+
+198
+00:05:41.970 --> 00:05:43.370
+The first one is directly
+
+199
+00:05:43.370 --> 00:05:44.970
+accessed with the chai.
+
+200
+00:05:44.970 --> 00:05:46.010
+So I'm accessing the value
+
+201
+00:05:46.010 --> 00:05:47.210
+in the chai.
+
+202
+00:05:47.210 --> 00:05:48.730
+So this is class value.
+
+203
+00:05:48.730 --> 00:05:50.730
+So I'll just go ahead and say class.
+
+204
+00:05:50.730 --> 00:05:52.010
+This is printing of the class.
+
+205
+00:05:52.890 --> 00:05:54.730
+And what do I want?
+
+206
+00:05:54.730 --> 00:05:56.090
+Why are you having.
+
+207
+00:05:57.370 --> 00:05:59.250
+I forgot to put up a comma.
+
+208
+00:05:59.250 --> 00:06:00.170
+There we go.
+
+209
+00:06:00.170 --> 00:06:01.610
+And I also want to print
+
+210
+00:06:01.610 --> 00:06:02.810
+this masala as well.
+
+211
+00:06:02.810 --> 00:06:03.930
+So let's go ahead and copy
+
+212
+00:06:03.930 --> 00:06:05.050
+this and print this.
+
+213
+00:06:05.690 --> 00:06:07.370
+So in line number 14, I have
+
+214
+00:06:07.370 --> 00:06:09.740
+changed a value which is is hot
+
+215
+00:06:09.740 --> 00:06:10.780
+inside the masala.
+
+216
+00:06:10.780 --> 00:06:11.780
+We'll actually draw
+
+217
+00:06:11.780 --> 00:06:12.940
+the diagrams as well.
+
+218
+00:06:12.940 --> 00:06:14.300
+And this one is here.
+
+219
+00:06:14.300 --> 00:06:16.540
+So my question is, if I change
+
+220
+00:06:16.540 --> 00:06:18.620
+anything inside an object,
+
+221
+00:06:18.620 --> 00:06:20.460
+should this change be propagated
+
+222
+00:06:20.460 --> 00:06:21.900
+inside the class as well?
+
+223
+00:06:21.900 --> 00:06:24.580
+This is like saying I do have a value
+
+224
+00:06:24.580 --> 00:06:27.420
+here which is is underscore hot.
+
+225
+00:06:28.060 --> 00:06:29.740
+And if I go ahead and change this
+
+226
+00:06:29.740 --> 00:06:31.660
+value here somehow, should this
+
+227
+00:06:31.660 --> 00:06:33.580
+change be propagated here as well?
+
+228
+00:06:33.580 --> 00:06:34.380
+That's the question.
+
+229
+00:06:34.380 --> 00:06:35.740
+And we will answer that by
+
+230
+00:06:36.280 --> 00:06:37.480
+just running the file.
+
+231
+00:06:37.480 --> 00:06:39.160
+If I run this notice here, it
+
+232
+00:06:39.160 --> 00:06:41.240
+says this masala India and true.
+
+233
+00:06:41.240 --> 00:06:42.280
+That's okay.
+
+234
+00:06:42.280 --> 00:06:43.520
+After that we see the class
+
+235
+00:06:43.520 --> 00:06:44.920
+is still true, but in
+
+236
+00:06:44.920 --> 00:06:47.240
+the masala it becomes false.
+
+237
+00:06:47.240 --> 00:06:48.600
+So this proves the point that
+
+238
+00:06:48.600 --> 00:06:50.560
+each object is actually having
+
+239
+00:06:50.560 --> 00:06:51.959
+its own namespace which
+
+240
+00:06:51.959 --> 00:06:53.800
+doesn't affect other objects.
+
+241
+00:06:53.800 --> 00:06:54.920
+Also doesn't affect
+
+242
+00:06:54.920 --> 00:06:56.080
+the classes as well.
+
+243
+00:06:56.080 --> 00:06:58.440
+By default, if you wish, you can,
+
+244
+00:06:58.440 --> 00:06:59.760
+but by default it
+
+245
+00:06:59.760 --> 00:07:01.240
+doesn't change any value.
+
+246
+00:07:01.240 --> 00:07:02.320
+You can also go ahead
+
+247
+00:07:02.320 --> 00:07:03.840
+and add more values to it.
+
+248
+00:07:03.840 --> 00:07:05.560
+Just like this could be a color
+
+249
+00:07:05.560 --> 00:07:07.240
+changed and this could be a size.
+
+250
+00:07:07.240 --> 00:07:08.420
+So you can add more values
+
+251
+00:07:08.420 --> 00:07:09.340
+to this masala as well.
+
+252
+00:07:09.340 --> 00:07:10.420
+How do we do that?
+
+253
+00:07:10.420 --> 00:07:12.260
+Super easy, super simple.
+
+254
+00:07:12.260 --> 00:07:14.660
+Now that you have an object Masala,
+
+255
+00:07:14.660 --> 00:07:16.100
+you can simply go ahead and say
+
+256
+00:07:16.100 --> 00:07:17.780
+that I want to add a flavor to it.
+
+257
+00:07:19.140 --> 00:07:19.700
+Flavor.
+
+258
+00:07:19.700 --> 00:07:21.300
+And feel free to add whatever
+
+259
+00:07:21.300 --> 00:07:22.340
+the flavor you want to add.
+
+260
+00:07:22.340 --> 00:07:25.140
+I will call this flavor as Masala.
+
+261
+00:07:25.140 --> 00:07:25.780
+There we go.
+
+262
+00:07:26.660 --> 00:07:28.420
+Now I can just go ahead and print
+
+263
+00:07:28.420 --> 00:07:33.540
+this simply masala flavor.
+
+264
+00:07:34.850 --> 00:07:36.290
+My bad flavor.
+
+265
+00:07:36.290 --> 00:07:38.930
+And super easy, super simple concept.
+
+266
+00:07:38.930 --> 00:07:40.490
+I hope you are focusing now
+
+267
+00:07:40.490 --> 00:07:41.330
+on the concept so we
+
+268
+00:07:41.330 --> 00:07:42.330
+get the new property.
+
+269
+00:07:42.330 --> 00:07:43.690
+But this property doesn't
+
+270
+00:07:43.690 --> 00:07:45.010
+exist in the class.
+
+271
+00:07:45.010 --> 00:07:47.130
+So all I'm saying is coming back
+
+272
+00:07:47.130 --> 00:07:49.090
+onto the point that you can go ahead
+
+273
+00:07:49.090 --> 00:07:50.970
+and have your own unique properties.
+
+274
+00:07:50.970 --> 00:07:52.130
+You can go ahead and change
+
+275
+00:07:52.130 --> 00:07:52.970
+the properties that
+
+276
+00:07:52.970 --> 00:07:53.970
+you got from the class.
+
+277
+00:07:53.970 --> 00:07:55.410
+Just like we did it here.
+
+278
+00:07:55.410 --> 00:07:57.130
+We got the property of blue, but we
+
+279
+00:07:57.130 --> 00:07:58.930
+changed this property to purple.
+
+280
+00:07:58.930 --> 00:08:00.190
+And that's okay.
+
+281
+00:08:00.190 --> 00:08:01.510
+It doesn't affect other object.
+
+282
+00:08:01.510 --> 00:08:02.310
+It doesn't affect
+
+283
+00:08:02.310 --> 00:08:03.790
+the original class as well.
+
+284
+00:08:03.790 --> 00:08:05.110
+If any new object will be
+
+285
+00:08:05.110 --> 00:08:06.070
+created from this class,
+
+286
+00:08:06.070 --> 00:08:07.430
+they will be exactly same.
+
+287
+00:08:07.430 --> 00:08:08.310
+So we can just still
+
+288
+00:08:08.310 --> 00:08:09.310
+go ahead and do this.
+
+289
+00:08:09.870 --> 00:08:10.910
+And That is all.
+
+290
+00:08:10.910 --> 00:08:12.110
+That is all the concept
+
+291
+00:08:12.110 --> 00:08:13.230
+of the namespaces.
+
+292
+00:08:13.230 --> 00:08:14.230
+I hope you got it.
+
+293
+00:08:14.230 --> 00:08:15.310
+It was a fun lecture.
+
+294
+00:08:15.310 --> 00:08:16.590
+Please do rate us and let's
+
+295
+00:08:16.590 --> 00:08:17.710
+catch up in the next one.
